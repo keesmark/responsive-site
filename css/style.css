@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* base
+----------------------------------------------------------*/
+html {
+  font-size: 14px; }
+
+body {
+  color: #2A3650;
+  font-size: 12px;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  background-color: #ECF0F1; }
+
+.header-img {
+  width: 100%;
+  height: 250px; }
+
+/* align
+----------------------------------------------------------*/
+.text-center {
+  text-align: center; }
+
+/* main
+----------------------------------------------------------*/
+h2 {
+  padding: 20px 0;
+  font-size: 24px; }
+
+.box {
+  width: 80%;
+  height: 120px;
+  border: none;
+  margin: 30px;
+  background-color: #EBAB06; }
+  .box h3 {
+    font-size: 18px;
+    border-bottom: none;
+    padding: 10px;
+    background-color: #F9FFA2; }
+  .box p {
+    padding: 30px;
+    color: white; }
+
+/* button
+----------------------------------------------------------*/
+#buy {
+  background-color: #F9FFA2;
+  padding: 20px 0; }
+  #buy p {
+    margin: 20px auto;
+    font-size: 18px; }
+  #buy .btn {
+    background: #E7372A;
+    color: white;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    width: 25%;
+    padding: 10px 0;
+    margin: 0 auto; }
+
+/* footer
+----------------------------------------------------------*/
+footer {
+  background-color: #F9FFA2;
+  text-align: center;
+  padding: 10px 0; }
+
+/* pc
+----------------------------------------------------------*/
+@media (min-width: 768px) {
+  #tastes {
+    display: flex;
+    justify-content: space-between; }
+
+  .btn:hover {
+    opacity: 0.9; } }
+
+/*# sourceMappingURL=style.css.map */
